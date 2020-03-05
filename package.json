@@ -1,0 +1,20 @@
+{
+  "name": "chirp-server",
+  "version": "1.0.0",
+  "description": "graphql for Chirp app",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "start:ci": "node src/index.js"
+  },
+  "author": "Jonathan Scott",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-datasource-rest": "^0.8.0",
+    "apollo-server": "^2.11.0",
+    "graphql": "^14.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
